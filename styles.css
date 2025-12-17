@@ -145,4 +145,9 @@ button:hover {
     width: 90%;
     margin-bottom: 20px;
   }
+   .attribution {
+    position: static;
+    margin-top: 20px;
+    transform: none;
+  }
 }
