@@ -92,6 +92,26 @@ button {
 button:hover {
   background-color: hsl(158, 42%, 18%);
 }
+.attribution {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  color: hsl(228, 12%, 48%);
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(158, 36%, 37%);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
 @media (max-width: 768px) {
   body {
     height: auto;
